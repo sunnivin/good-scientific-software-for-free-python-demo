@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pre-commits-python-example"
+version = "0.1.0"
+description = "Example of how to use pre-commits in a python project"
+authors = ["Sunniva Indrehus <sunniva.indrehus@ngi.no>"]
+license = "MiT"
+readme = "README.md"
+packages = [{include = "pre_commits_python_example"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pre-commit = "^2.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

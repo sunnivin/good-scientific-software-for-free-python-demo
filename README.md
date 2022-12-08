@@ -17,6 +17,14 @@ C:\Users\SuI\pre-commits-python-example (main)
 (pre-commits-python-example-py3.11) poetry install
 ```
 
+### Update hook versions
+You can automatically update the different versions of the hooks by typing
+
+```powershell
+C:\Users\SuI\pre-commits-python-example (main)
+(pre-commits-python-example-py3.11)  pre-commit autoupdate
+```
+
 ### Automatic run each time you try to commit something
 ```
 C:\Users\SuI\pre-commits-python-example (main)

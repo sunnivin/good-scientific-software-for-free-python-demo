@@ -1,6 +1,3 @@
-m = 42
-
-
 def factorial(n: int) -> int:
     if n < 2:
         return 1

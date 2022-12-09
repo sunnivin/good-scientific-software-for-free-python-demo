@@ -10,10 +10,6 @@ packages = [{include = "pre_commits_python_example"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 pre-commit = "^2.20.0"
-black = "^22.10.0"
-isort = "^5.10.1"
-flake8 = "^6.0.0"
-mypy = "^0.991"
 
 
 [build-system]

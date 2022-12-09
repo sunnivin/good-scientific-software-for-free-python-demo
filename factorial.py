@@ -1,11 +1,10 @@
-from pathlib import Path
-import math 
+my_variable = 42
 
-l = 42 
-def factorial(
-    n: int) -> int        :
-    if n <          2:
+
+def factorial(n: int) -> int:
+    if n < 2:
         return 1
-    return           n * factorial(n - 1)
+    return n * factorial(n - 1)
 
-print(f"value is: {factorial(4)}")
+
+print(f"value is: {factorial(6)}")
